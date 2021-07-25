@@ -292,7 +292,7 @@ typedef enum : NSUInteger {
             "MAN: \"ssdp:discover\"\r\n"
             "ST: %@\r\n"
             "MX: 3\r\n"
-            "USER-AGENT: %@/1\r\n\r\n\r\n",
+            "USER-AGENT: FireRemote/1 CFNetwork/1220.1 Darwin/20.3.0",
             SSDPMulticastGroupAddress,
             SSDPMulticastUDPPort,
             serviceType ?: @"ssdp:all",
